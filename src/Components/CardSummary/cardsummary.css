@@ -1,0 +1,75 @@
+.CS-Container
+{
+    display: list-item;
+    margin: 10px;
+    height: auto;
+    width: auto;    
+}
+
+.CS-Image
+{
+    max-width: 450px;
+    height: auto;
+    background-color: rgba(139, 136, 136, 0);
+    text-align: left;
+}
+
+.CS-Label
+{
+    color: rgb(255, 255, 255);
+    font-size: 20px;     
+    text-align: left;
+    font-style: italic; 
+    vertical-align: middle;
+    display: table-cell;
+    width: 300px; 
+    padding-left: 10px;
+}
+
+.CS-Label-Title
+{
+    color: rgb(255, 255, 255);
+    font-size: 20px;   
+    font-style: bold;  
+    text-align: left;
+    vertical-align: middle;
+    display: table-cell;
+    width: 130px; 
+    padding-left: 10px;
+    border-left-color: rgb(255, 255, 255) 1px solid;
+}
+
+.CS-Container-Label
+{
+    height: 40px;
+    width: auto;
+    background-color: rgb(122, 122, 122);
+    border: rgb(114, 165, 194) 1px solid;
+    display: table;
+}
+
+.CS-Footer
+{
+    max-width: 450px;
+    height: auto;
+    background-color: rgb(122, 122, 122);
+    border: rgb(114, 165, 194) 1px solid;
+    text-align: center;
+}
+
+.CS-Footer-Button
+{
+    margin: 5px;
+    padding: 5px;
+    font-size: 18px;
+    color: mintcream;
+    background-color: rgb(51, 140, 212);
+    border-radius: 5px;
+    width: auto;
+}
+
+.CS-Footer-Network
+{
+    padding: 15px;
+    width: auto;
+}
