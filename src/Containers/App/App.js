@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from '../../logo.svg';
 import './App.css';
-import CoverElement from '../../Components/CoverElement/CoverElement';
+import FilterBar from '../../Components/FilterBar/FilterBar';
 
 class App extends Component {
   render() {
@@ -12,7 +12,7 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         
-        <CoverElement />
+        <FilterBar />
       </div>
     );
   }
