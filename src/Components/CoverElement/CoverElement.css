@@ -1,0 +1,43 @@
+.Container
+{
+    min-width: 230px;
+    min-height: 330px;
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+    background-repeat: no-repeat;
+    background-image:url(https://cdn.anilist.co/img/dir/anime/reg/100526-LqDnjcIhDakp.jpg);
+}
+
+.Container-Footer
+{
+    min-height: 50px;
+    width: 230px;
+
+    align-self: flex-end;
+    text-align: left;
+
+    background-repeat: no-repeat;
+    background-color: black;
+
+    opacity: .7;
+
+    padding-top: 10px;
+}
+
+.Container-Footer-Content
+{    
+    color: white;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.Container-Footer>p
+{
+    color: #FF9705;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from '../../logo.svg';
 import './App.css';
-import Cardsummary from '../../Components/CardSummary/cardsummary';
+import CoverElement from '../../Components/CoverElement/CoverElement';
 
 class App extends Component {
   render() {
@@ -12,7 +12,7 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         
-        <Cardsummary />
+        <CoverElement />
       </div>
     );
   }
